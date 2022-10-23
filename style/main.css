@@ -52,9 +52,14 @@ main {
 .nav-slider ul li {
   margin-bottom: 25px;
 }
-
-.nav-slider a {
+.nav-logout{
+  margin-top: 100%;
+}
+.nav-bar .nav-logout a {
   color: #000000;
+}
+.nav-logout a:hover {
+  color: #3c652f;
 }
 
 #dashboard {
@@ -298,7 +303,15 @@ main {
   padding-left: 13px;
   padding-top: 13px;
 }
-
+.menu-bar img{
+width: 45.67px;
+height: 45.67px;
+left: 1127.7px;
+top: 537.73px;
+background: #FFD143;
+opacity: 0.2;
+border-radius: 12px;
+}
 .menu-name {
   font-family: "Manrope";
   font-style: normal;
