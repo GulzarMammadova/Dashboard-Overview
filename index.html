@@ -5,49 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-    />
-    <link
       href="https://api.fontshare.com/v2/css?f[]=panchang@200,300,400&display=swap"
       rel="stylesheet"
     />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Jost:wght@700&family=Manrope:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./style/main.css" />
+    <script src="https://kit.fontawesome.com/11e0bb8b1a.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="./style/main.css" />
     <title>Overview</title>
   </head>
 
   <body>
     <main>
       <header class="nav-bar">
-        <img class="nav-logo" src="./pics/Logo.svg" alt="logo" title="logo" />
+        <img class="nav-logo" src="./pics/Logo.svg" alt="logo" title="logo"/>
         <div class="nav-slider">
           <ul>
             <li>
-              <a href="#"><i class="fa-solid fa-grid-2"></i>Overview</a>
+              <a href="#">Overview</a>
             </li>
             <li>
               <a href="#"
-                ><i class="fa-thin fa-calendar-lines-pen"></i>Schedule</a
-              >
+                ><i class="fa-thin fa-house"></i>Schedule</a>
             </li>
             <li>
-              <a href="#"><i class="fa-thin fa-folder"></i>Courses</a>
+              <a href="#"><i class="fa-light fa-folder"></i>Courses</a>
             </li>
             <li>
-              <a href="#"><i class="fa-thin fa-chart-simple"></i>Statistic</a>
+              <a href="#"><i class="fa-light fa-chart-simple"></i>Statistic</a>
             </li>
             <li>
-              <a href="#"><i class="fa-thin fa-gear"></i>Settings</a>
+              <a href="#"><i class="fa-light fa-gear"></i>Settings</a>
             </li>
           </ul>
           <div class="nav-logout">
-            <a href="#"><i class="fa-thin fa-right-to-bracket"></i>Log out</a>
+            <a href="#"><i class="fa-light fa-right-to-bracket"></i>Log out</a>
           </div>
         </div>
       </header>
@@ -69,6 +66,7 @@
             <div class="progress-bar">
               <div class="progress-description">
                 <p class="box-progress">In Progress</p>
+                <i class="fa-thin fa-square-chevron-right"></i>
                 <p class="percent">34%</p>
               </div>
               <img src="./pics/Progress bar.svg" />
@@ -136,16 +134,25 @@
           <p class="account-position">Middle UX/UI Designer</p>
         </div>
         <div class="account-menu">
+          <hr />
           <h3>Reminder</h3>
           <div class="menu-bar">
-            <img src="./pics/volume-1 1.svg" />
-            <p class="menu-name">Workshop</p>
-            <p class="menu-content">8:00 AM - 12:00 PM</p>
+            <div class="account-menu-icon">
+              <img src="./pics/volume-1 1.svg" />
+            </div>
+            <div class="menu-description">
+              <p class="menu-name">Workshop</p>
+              <p class="menu-content">8:00 AM - 12:00 PM</p>
+            </div>
           </div>
           <div class="menu-bar">
-            <img src="./pics/edit-2.svg" />
-            <p class="menu-name">Homework</p>
-            <p class="menu-content">8:00 AM - 12:00 PM</p>
+            <div class="account-menu-icon">
+              <img src="./pics/edit-2.svg" />
+            </div>
+            <div class="menu-description">
+              <p class="menu-name">Homework</p>
+              <p class="menu-content">8:00 AM - 12:00 PM</p>
+            </div>
           </div>
         </div>
         <div class="upgrade">
@@ -154,5 +161,6 @@
         </div>
       </section>
     </main>
+    
   </body>
 </html>

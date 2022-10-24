@@ -6,6 +6,12 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "FontAwesome";font-display:block;
+  src:url(https://ka-f.fontawesome.com/releases/v6.2.0/webfonts/free-fa-brands-400.woff2) 
+  format("woff2"),url(https://ka-f.fontawesome.com/releases/v6.2.0/webfonts/free-fa-brands-400.ttf) format("truetype")
+}
+
 body {
   font-family: "Poppins", sans-serif;
   font-family: "Panchang", sans-serif;
@@ -62,6 +68,7 @@ main {
   color: #3c652f;
 }
 
+
 #dashboard {
   width: 60%;
   height: 100%;
@@ -106,7 +113,7 @@ main {
 .box-score {
   width: 345px;
   height: 255px;
-  background-image: url(../pics/Mesh-08.svg);
+  background: url(../pics/Mesh-08.svg);
   border-radius: 15px;
   padding-top: 20%;
   padding-left: 30px;
@@ -284,33 +291,45 @@ main {
   color: #979ca5;
   margin-bottom: 30px;
 }
-
+.account-menu hr{
+  width: 85%;
+  margin-left: 25px;
+  margin-bottom: 35px;
+}
 .account-menu h3 {
   font-weight: 600;
   font-size: 22px;
   line-height: 33px;
   color: #121212;
+  margin-left: 25px;
 }
 
 .menu-bar {
-  width: 274px;
+  width: 254px;
   height: 73px;
   left: 1388px;
   top: 597px;
   background: #f7f7f7;
   border-radius: 16px;
+  margin-top: 15px;
   margin-bottom: 20px;
+  margin-left: 25px;
   padding-left: 13px;
   padding-top: 13px;
+  display: flex;
+  flex-direction: row;
 }
-.menu-bar img{
+.account-menu-icon{
 width: 45.67px;
 height: 45.67px;
-left: 1127.7px;
-top: 537.73px;
 background: #FFD143;
 opacity: 0.2;
 border-radius: 12px;
+margin-right: 25px;
+}
+
+.menu-description{
+  margin-top: 5px;
 }
 .menu-name {
   font-family: "Manrope";
@@ -319,6 +338,7 @@ border-radius: 12px;
   font-size: 10px;
   line-height: 14px;
   color: #303030;
+  margin-bottom: 5px;
 }
 
 .menu-content {
